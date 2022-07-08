@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300;300&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+
+
+.App {
+  background: linear-gradient(90deg,
+      rgb(117, 17, 148) 0%,
+      rgb(7, 18, 122) 100%);
+
+  padding: 10%;
+  height: 80vh;
+
+}
+
+.container {
+  max-width: 653px;
+  min-height: 599px;
+  /* margin:  0px  0px 0px 200px; */
+  padding: 1rem 1rem 1rem 2rem;
+  border: 2px solid black;
+  background: linear-gradient(90deg,
+      rgb(65, 170, 16) 40%,
+      rgb(202, 199, 14) 100%);
+
+
+  /* display: block; */
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 50px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #000;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.add {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.item {
+  margin-top: 1rem;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 40%, rgb(227, 44, 251) 100%);
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 20px;
+  max-width: 424px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.icons {
+
+  transform: translateY(-50%);
+  /* right: -94px; */
+  display: flex !important;
+  font-size: 25px;
+  color: black;
+  gap: 0.5rem;
+}
+
+i {
+  cursor: pointer;
+  background: linear-gradient(90deg,
+      rgb(0, 0, 0) 40%,
+      rgb(227, 44, 251) 100%);
+  color: aliceblue;
+  padding: 7px;
+  border-radius: 20px;
+  
+}
